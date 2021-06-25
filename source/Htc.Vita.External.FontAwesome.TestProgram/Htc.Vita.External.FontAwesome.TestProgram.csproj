@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Htc.Vita.External.FontAwesome.TestProgram</RootNamespace>
+    <AssemblyName>Htc.Vita.External.FontAwesome.TestProgram</AssemblyName>
+    <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+    <DebugType>portable</DebugType>
+    <IntermediateOutputPath>..\..\temp\$(Configuration)\$(AssemblyName)\obj</IntermediateOutputPath>
+    <OutputPath>..\..\temp\$(Configuration)\$(AssemblyName)\bin</OutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>6</LangVersion>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Htc.Vita.External.FontAwesome\Htc.Vita.External.FontAwesome.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\generated\SharedAssemblyInfo.cs" Link="Properties\SharedAssemblyInfo.cs" />
+  </ItemGroup>
+</Project>

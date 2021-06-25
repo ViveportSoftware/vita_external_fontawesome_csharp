@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Htc.Vita.External.FontAwesome", "Htc.Vita.External.FontAwesome\Htc.Vita.External.FontAwesome.csproj", "{24B41C27-64DA-4E2B-8337-3AACBAF12225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Htc.Vita.External.FontAwesome.TestProgram", "Htc.Vita.External.FontAwesome.TestProgram\Htc.Vita.External.FontAwesome.TestProgram.csproj", "{0CA74A59-6239-40AC-A718-822DC589DB22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B41C27-64DA-4E2B-8337-3AACBAF12225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B41C27-64DA-4E2B-8337-3AACBAF12225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B41C27-64DA-4E2B-8337-3AACBAF12225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B41C27-64DA-4E2B-8337-3AACBAF12225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA74A59-6239-40AC-A718-822DC589DB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA74A59-6239-40AC-A718-822DC589DB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA74A59-6239-40AC-A718-822DC589DB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA74A59-6239-40AC-A718-822DC589DB22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CDA6288-7B14-4940-B12F-1A4962218758}
+	EndGlobalSection
+EndGlobal

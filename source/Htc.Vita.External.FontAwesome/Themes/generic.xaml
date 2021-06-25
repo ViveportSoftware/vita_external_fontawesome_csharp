@@ -1,0 +1,14 @@
+<ResourceDictionary
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Htc.Vita.External.FontAwesome">
+    <FontFamily x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type TypeName=local:IconFont}, ResourceId=FontAwesome5BrandsRegular}">
+        pack://application:,,,/Htc.Vita.External.FontAwesome;component/Resources/#Font Awesome 5 Brands Regular
+    </FontFamily>
+    <FontFamily x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type TypeName=local:IconFont}, ResourceId=FontAwesome5FreeRegular}">
+        pack://application:,,,/Htc.Vita.External.FontAwesome;component/Resources/#Font Awesome 5 Free Regular
+    </FontFamily>
+    <FontFamily x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type TypeName=local:IconFont}, ResourceId=FontAwesome5FreeSolid}">
+        pack://application:,,,/Htc.Vita.External.FontAwesome;component/Resources/#Font Awesome 5 Free Solid
+    </FontFamily>
+</ResourceDictionary>

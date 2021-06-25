@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <RootNamespace>Htc.Vita.External.FontAwesome</RootNamespace>
+    <AssemblyName>Htc.Vita.External.FontAwesome</AssemblyName>
+    <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+    <DebugType>portable</DebugType>
+    <IntermediateOutputPath>..\..\temp\$(Configuration)\$(AssemblyName)\obj</IntermediateOutputPath>
+    <OutputPath>..\..\temp\$(Configuration)\$(AssemblyName)\bin</OutputPath>
+    <DocumentationFile>..\..\temp\$(Configuration)\$(AssemblyName)\bin\$(AssemblyName).xml</DocumentationFile>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>6</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <UseWPF>true</UseWPF>
+    <Authors>HTC</Authors>
+    <PackageDescription>HTC Vita External module (Font Awesome)</PackageDescription>
+    <PackageProjectUrl>https://github.com/ViveportSoftware/vita_external_fontawesome_csharp/</PackageProjectUrl>
+    <PackageTags>htc;vita;fontawesome</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\generated\SharedAssemblyInfo.cs" Link="Properties\SharedAssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\Font Awesome 5 Brands-Regular-400.otf" />
+    <None Remove="Resources\Font Awesome 5 Free-Regular-400.otf" />
+    <None Remove="Resources\Font Awesome 5 Free-Solid-900.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Font Awesome 5 Brands-Regular-400.otf" />
+    <Resource Include="Resources\Font Awesome 5 Free-Regular-400.otf" />
+    <Resource Include="Resources\Font Awesome 5 Free-Solid-900.otf" />
+  </ItemGroup>
+</Project>
