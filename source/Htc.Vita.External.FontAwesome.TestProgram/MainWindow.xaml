@@ -8,433 +8,533 @@
         xmlns:res="clr-namespace:Htc.Vita.External.FontAwesome;assembly=Htc.Vita.External.FontAwesome"
         mc:Ignorable="d"
         Title="MainWindow"
-        Height="304"
-        Width="634">
+        Height="264"
+        Width="404">
     <ScrollViewer>
         <WrapPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText._500px}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText._500px}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText._500px}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="_500px"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AccessibleIcon}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AccessibleIcon}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AccessibleIcon}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="AccessibleIcon"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressBook}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressBook}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressBook}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="AddressBook"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressCard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressCard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.AddressCard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="AddressCard"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Adjust}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Adjust}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Adjust}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Adjust"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Bell}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Bell}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Bell}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Bell"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.BellSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.BellSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.BellSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="BellSlash"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Cog}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Cog}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Cog}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Cog"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Language}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Language}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Language}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Language"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Link}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Link}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Link}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Link"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Plug}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Plug}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Plug}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Plug"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Rocket}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Rocket}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Rocket}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Rocket"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignInAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignInAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignInAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="SignInAlt"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignOutAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignOutAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.SignOutAlt}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="SignOutAlt"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Steam}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Steam}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Steam}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Steam"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Store}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Store}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Store}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Store"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.StoreSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.StoreSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.StoreSlash}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="StoreSlash"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOff}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOff}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOff}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="ToggleOff"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOn}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOn}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.ToggleOn}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="ToggleOn"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Unlink}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Unlink}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.Unlink}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="Unlink"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.VrCardboard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.VrCardboard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.VrCardboard}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="VrCardboard"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowClose}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowClose}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowClose}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="WindowClose"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMaximize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMaximize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMaximize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="WindowMaximize"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMinimize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMinimize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowMinimize}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="WindowMinimize"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowRestore}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowRestore}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
                 />
                 <TextBlock
                         Text="{x:Static Member=res:IconText.WindowRestore}"
                         FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                        FontSize="40" MinWidth="50" TextAlignment="Center" VerticalAlignment="Center"
+                />
+                <TextBox
+                        Text="WindowRestore"
+                        FontSize="22" IsReadOnly="True" MinWidth="200" TextAlignment="Left" VerticalAlignment="Center"
                 />
             </StackPanel>
         </WrapPanel>
