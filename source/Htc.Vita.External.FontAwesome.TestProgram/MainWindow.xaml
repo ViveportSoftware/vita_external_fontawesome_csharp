@@ -9,322 +9,434 @@
         mc:Ignorable="d"
         Title="MainWindow"
         Height="304"
-        Width="618">
-    <WrapPanel>
-        <TextBlock
-                Text="{x:Static Member=res:IconText.AddressCard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.AddressCard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.AddressCard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Bell}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Bell}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Bell}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.BellSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.BellSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.BellSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Cog}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Cog}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Cog}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Language}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Language}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Language}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Link}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Link}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Link}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Plug}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Plug}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Plug}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Rocket}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Rocket}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Rocket}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignInAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignInAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignInAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignOutAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignOutAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.SignOutAlt}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Steam}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Steam}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Steam}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Store}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Store}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Store}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.StoreSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.StoreSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.StoreSlash}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOff}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOff}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOff}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOn}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOn}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.ToggleOn}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Unlink}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Unlink}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.Unlink}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.VrCardboard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.VrCardboard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.VrCardboard}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowClose}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowClose}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowClose}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMaximize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMaximize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMaximize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMinimize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMinimize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowMinimize}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowRestore}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowRestore}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-        <TextBlock
-                Text="{x:Static Member=res:IconText.WindowRestore}"
-                FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
-                FontSize="40" MinWidth="50" TextAlignment="Center"
-        />
-    </WrapPanel>
+        Width="634">
+    <ScrollViewer>
+        <WrapPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText._500px}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText._500px}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText._500px}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AccessibleIcon}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AccessibleIcon}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AccessibleIcon}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressBook}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressBook}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressBook}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressCard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressCard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.AddressCard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Adjust}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Adjust}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Adjust}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Bell}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Bell}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Bell}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.BellSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.BellSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.BellSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Cog}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Cog}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Cog}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Language}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Language}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Language}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Link}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Link}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Link}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Plug}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Plug}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Plug}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Rocket}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Rocket}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Rocket}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignInAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignInAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignInAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignOutAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignOutAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.SignOutAlt}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Steam}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Steam}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Steam}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Store}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Store}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Store}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.StoreSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.StoreSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.StoreSlash}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOff}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOff}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOff}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOn}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOn}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.ToggleOn}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Unlink}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Unlink}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.Unlink}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.VrCardboard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.VrCardboard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.VrCardboard}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowClose}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowClose}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowClose}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMaximize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMaximize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMaximize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMinimize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMinimize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowMinimize}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowRestore}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5BrandRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowRestore}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeRegular}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+                <TextBlock
+                        Text="{x:Static Member=res:IconText.WindowRestore}"
+                        FontFamily="{DynamicResource ResourceKey={x:Static Member=res:IconFont.FontAwesome5FreeSolid}}"
+                        FontSize="40" MinWidth="50" TextAlignment="Center"
+                />
+            </StackPanel>
+        </WrapPanel>
+    </ScrollViewer>
 </Window>

@@ -6,10 +6,30 @@ namespace Htc.Vita.External.FontAwesome
     public static class IconText
     {
         /// <summary>
+        /// Gets the text for "500px".
+        /// </summary>
+        /// <value>The text for "500px".</value>
+        public static string _500px         => "\uf26e";
+        /// <summary>
+        /// Gets the text for "accessible-icon".
+        /// </summary>
+        /// <value>The text for "accessible-icon".</value>
+        public static string AccessibleIcon => "\uf368";
+        /// <summary>
+        /// Gets the text for "address-book".
+        /// </summary>
+        /// <value>The text for "address-book".</value>
+        public static string AddressBook    => "\uf2b9";
+        /// <summary>
         /// Gets the text for "address-card".
         /// </summary>
         /// <value>The text for "address-card".</value>
         public static string AddressCard    => "\uf2bb";
+        /// <summary>
+        /// Gets the text for "adjust".
+        /// </summary>
+        /// <value>The text for "adjust".</value>
+        public static string Adjust         => "\uf042";
         /// <summary>
         /// Gets the text for "bell".
         /// </summary>
