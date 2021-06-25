@@ -1,5 +1,7 @@
 # HTC Vita External Libraries for .NET platform (Htc.Vita.External.FontAwesome)
 
+[![NuGet Badge](https://buildstats.info/nuget/Htc.Vita.External.FontAwesome)](https://www.nuget.org/packages/Htc.Vita.External.FontAwesome/) [![MyGet Badge](https://buildstats.info/myget/viveportsoftware/Htc.Vita.External.FontAwesome)](https://www.myget.org/feed/viveportsoftware/package/nuget/Htc.Vita.External.FontAwesome)
+
 [![Build status](https://ci.appveyor.com/api/projects/status/myp0f012507mslk3?svg=true)](https://ci.appveyor.com/project/kenelin/vita-external-fontawesome-csharp)
 
 ## Dependency
